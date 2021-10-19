@@ -13,7 +13,7 @@ O layout tem como foco dispositivos móveis, então todos os protótipos vão es
 1. Clone o repositório
   * `git clone git@github.com:thiagoteixas/projeto-recipes-app.git`
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-013-b-project-recipes-app`
+    * `cd projeto-recipes-app`
 
 2. Instale as dependências e inicialize o projeto
   * Instale as dependências:
