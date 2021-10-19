@@ -1,0 +1,26 @@
+.ingredients-list-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  z-index: 0;
+}
+
+.ingredients-list {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 60rem;
+  padding-bottom: 12vh;
+  padding-top: 3vh;
+  width: 100%;
+}
+
+@media ( max-width : 340px ) {
+
+  .ingredients-list {
+    padding-top: 0;
+  }
+}

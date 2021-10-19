@@ -1,0 +1,32 @@
+.footer {
+  background-color: var(--main-bg-color);
+  bottom: 0;
+  color: rgb(17, 17, 17);
+  height: 10vh;
+  max-height: 4.5rem;
+  position: fixed;
+  width: 100%;
+}
+
+.footer section {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 20rem;
+  width: 92%;
+  z-index: 10;
+}
+
+.footer section button {
+  background-color: unset;
+  border: none;
+  max-width: 2.8rem;
+  width: 120%;
+}
+
+.footer section button img {
+  max-width: 2.8rem;
+  width: 120%;
+}

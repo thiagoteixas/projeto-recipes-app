@@ -1,0 +1,68 @@
+:root {
+
+  --main-bg-color: #65bbb5;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Poppins , sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: lightyellow;
+  margin-top: 10vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+.explore-area select {
+  margin: 1rem calc((100% - 160px) / 2);
+  width: 160px;
+}
+
+.meals {
+  align-items: center;
+  background: #0fa36b;
+  color: #464646;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.btn-explore {
+  background-color: var(--main-bg-color);
+  border: none;
+  border-radius: 10px;
+  color: black;
+  display: block;
+  font-size: 24px;
+  margin-bottom: 1rem;
+  max-width: 20rem;
+  padding: 2rem;
+  text-decoration: none;
+  transition: transform 0.2s;
+  width: 95%;
+}
+
+.btn-explore:hover {
+  background-color: black;
+  color: var(--main-bg-color);
+  font-weight: 700;
+  transform: scale(1.1);
+}
+
+.explore-page h3 {
+  margin-bottom: 1rem;
+}
+

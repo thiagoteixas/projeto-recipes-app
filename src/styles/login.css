@@ -1,0 +1,42 @@
+.login-form {
+  background-color: rgba(238, 238, 238, 0.52);
+  border-radius: 10px;
+  height: 50vh;
+  margin: 25vh auto;
+  max-width: 20rem;
+  padding: 1rem;
+  text-align: center;
+  width: 95%;
+}
+
+.login-form * {
+  margin: 1rem 0;
+}
+
+.login-form input {
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: block;
+  font-size: 18px;
+  height: 2.5rem;
+  margin: 1rem auto;
+  max-width: 40rem;
+  padding: 0 6px;
+  width: 92%;
+}
+
+.login-form button {
+  background-color: var(--main-bg-color);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 0.4rem;
+  margin-bottom: unset;
+  padding: 8px 20px;
+  width: 70%;
+}
+
+.login-form button:disabled {
+  color: black;
+  opacity: 0.65;
+}

@@ -1,0 +1,46 @@
+.card {
+  background-color: greenyellow;
+  border: 1px solid rgba(128, 128, 128, 0.185);
+  cursor: pointer;
+  font-size: 16px;
+  height: 12rem;
+  margin: 0.6rem 0;
+  max-width: 10rem;
+  overflow: hidden;
+  width: 50%;
+}
+
+.card img {
+  height: 10rem;
+  margin-bottom: 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card h4 {
+  font-weight: 400;
+  line-height: 200%;
+  margin-top: -6px;
+  text-align: center;
+}
+
+@media ( max-width : 350px ) {
+
+  .card {
+    margin: 0.3rem 0;
+  }
+}
+
+@media ( max-width : 330px ) {
+
+  .card {
+    margin: 0.1rem 0;
+  }
+}
+
+@media ( max-width : 320px ) {
+
+  .card {
+    margin: 0;
+  }
+}

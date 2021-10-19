@@ -1,0 +1,66 @@
+.details-page {
+  margin-top: -10vh;
+  text-align: center;
+}
+
+.details-page iframe {
+  height: 20rem;
+  max-width: 30rem;
+  width: 100%;
+}
+
+.main-photo {
+  height: 10rem;
+  margin: 0 auto;
+  max-width: 60rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.scroll-container {
+  background-color: tomato;
+  height: fit-content;
+  margin: 2rem auto;
+  max-width: 50rem;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.recommendations {
+  display: flex;
+  width: fit-content;
+}
+
+.recommendations .card {
+  height: fit-content;
+  max-width: unset;
+  overflow: visible;
+  width: 20rem;
+}
+
+.start-btn {
+  bottom: 0;
+  position: fixed;
+}
+
+@media ( max-width : 350px ) {
+
+  .recommendations .card {
+    margin: 0.6rem 0;
+  }
+}
+
+@media ( max-width : 330px ) {
+
+  .recommendations .card {
+    margin: 0.6rem 0;
+  }
+}
+
+@media ( max-width : 320px ) {
+
+  .recommendations .card {
+    margin: 0.6rem 0;
+  }
+}
+
